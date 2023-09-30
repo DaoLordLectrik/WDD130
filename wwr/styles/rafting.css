@@ -49,12 +49,67 @@ h1, h2, h3, h4, h5, h6 {
   
   nav a:hover {
     color: var(--nav-hover-link-color);
-    /* background-color: var(--nav-hover-background-color); */
   }
 
-  
+p{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+}
+
+.hero {
+  position: relative;
+}
+
 .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
+  width: 100%;
+  height: auto;
+  float: right;
+  /* padding: auto; */
+}
+
+.hero h1{
+  position: absolute;
+  color: #ffffff;
+  padding: 1%;
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* text-align: center; */
+  align-items: center;
+  /* padding-left: 50%; */
+  /* padding-right: 0%; */
+}
+
+.hero article p{
+  position: absolute;
+  color: #ffffff;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgba(6, 57, 151, 0.3);
+  width: 70%;
+  margin-top: 20%;
+}
+
+.hero article img {
+  position: absolute;
+  right: 0%;
+  padding: 5%;
+  background-color: rgba(6, 57, 151, 0.3);
+  padding: 20px;
+  width: 30%;
+  margin-top: 20%;
+}
+
+.hero h2{
+  position: absolute;
+}
