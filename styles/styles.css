@@ -36,6 +36,7 @@ main {
 }
 
 aside {
+    position: relative;
     width: 20em;
     text-align: center;
 }
@@ -76,3 +77,12 @@ footer {
     background-color: #ddd;
     color: #000;
   }
+
+.justify{
+    text-align: justify;
+}
+
+.header-color{
+    color: white;
+
+}
