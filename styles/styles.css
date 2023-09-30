@@ -78,10 +78,12 @@ footer {
     color: #000;
   }
 
+  /*Note to self: There were no instructions to add these two classes*/
+  /*Called in <p> under <main> to justifies the content */
 .justify{
     text-align: justify;
 }
-
+/*Called in <h1> under <aside> to make text white on the black background*/
 .header-color{
     color: white;
 
