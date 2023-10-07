@@ -10,13 +10,19 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Rafting Mountain Logo" width="200">
-        <nav>
-            <a href="site-plan-rafting.html">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Trips</a>
-            <a href="#">Contact Us</a>
-        </nav>
+        <div class="flex-header-container">
+            <div>
+                <img src="images/logo.png" alt="Rafting Mountain Logo" width="200">
+            </div>
+            <div>
+            <nav>
+                <div class="flex-header-element"><a href="site-plan-rafting.html">Home</a></div>
+                <div class="flex-header-element"><a href="#">About Us</a></div>
+                <div class="flex-header-element"><a href="#">Trips</a></div>
+                <div class="flex-header-element"><a href="#">Contact Us</a></div>
+            </nav>
+            </div>
+        </div>
     </header>
     <main>
         <div class="hero">
@@ -35,8 +41,8 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae nostrum animi vel aliquam tempore quo iste laboriosam, necessitatibus sapiente? Quae aperiam libero incidunt vel obcaecati ipsa, natus officiis facilis excepturi iusto praesentium, iure nemo rem porro. At eius, eos expedita quod veniam facilis corporis, asperiores laborum quia illum voluptas, eligendi ex esse excepturi sequi! Nulla sit itaque consequatur mollitia consectetur officiis deserunt ipsa nesciunt voluptatem. Consectetur nulla vitae magni voluptatem sunt culpa temporibus molestiae tenetur corrupti ex, rem eveniet doloribus?</p>
         </section>
         <section>
-            <h2>Adventure Awaits You</h2>
-            <div>
+            <h2 class="header-align">Adventure Awaits You</h2>
+            <div class="adventure-section">
                 <img src="images/hiking-and-recreation.webp" width="500" alt="Calm River">
                 <img src="images/portrait-of-a-handsome-young-man-and-raft.webp" width="500" alt="Self Service for the adventurers">
                 <img src="images/shot-of-a-group-of-young-male-friends-white-water.webp" width="500" alt="Fun activities">
@@ -46,8 +52,9 @@
         </section>
     </main>
     <footer>
-        <p>©️2023 Rafting Site Website | Fiifi Cudjoe Debrah | WDD 130</p>
-        <nav class="sociallinks">
+        <div class="grid-footer">
+        <div><p>©️2023 Rafting Site Website | Fiifi Cudjoe Debrah | WDD 130</p></div>
+        <div><nav class="sociallinks">
             <a href="https://facebook.com">
             <img src="images/facebook.svg" alt="Facebook" width="50">
             </a>
@@ -58,5 +65,7 @@
             <img src="images/instagram.svg" alt="Instagram" width="50">
             </a>
         </nav>
+        </div>
+        </div>
     </footer>
 </body>

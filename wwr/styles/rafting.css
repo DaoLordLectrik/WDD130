@@ -84,9 +84,10 @@ div {
   margin-top: 5%;
   background-color: rgba(0, 0, 0, 0.3);
   /* text-align: center; */
-  align-items: center;
+  /* align-items: center; */
   /* padding-left: 50%; */
   /* padding-right: 0%; */
+  text-align: center;
 }
 
 .hero article p{
@@ -113,3 +114,34 @@ div {
 .hero h2{
   position: absolute;
 }
+
+.header-align{
+  text-align: center;
+}
+
+.flex-header-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  grid-gap: 50px;
+  background-color: bisque;
+  padding: 20px;
+}
+
+.flex-header-element{
+  border: 1px solid #0d0b07;
+  text-align: center;
+  width: 150px;
+}
+
+.adventure-section{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  grid-template-rows: repeat(1, 1fr);
+ }
+
+ .grid-footer{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+ }
