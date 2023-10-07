@@ -39,6 +39,7 @@ p {
 
 main {
     max-width: 840px;
+    padding: 0.5rem;
 }
 
 aside {
