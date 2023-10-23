@@ -14,8 +14,8 @@ body {
   --paragraph-font: poppins, serif;
 
   --nav-background-color: #ffffff;
-  --nav-link-color: #36affe;
-  --nav-hover-link-color: #0d0b07;
+  --nav-link-color: #ffffff;
+  --nav-hover-link-color: #26bffc;
   --nav-hover-background-color: #36affe;
 }
 
@@ -120,6 +120,7 @@ div {
   text-align: center;
   margin-top: 10px;
   opacity: 0;
+  color: #ffffff;
 }
 
 .flex-header-container{
@@ -132,8 +133,9 @@ div {
 }
 
 .flex-header-element{
-  border: 1px solid #0d0b07;
+  border: 1px solid #ffffff;
   text-align: center;
+  background-color: #132277;
   width: 150px;
 }
 
@@ -236,12 +238,61 @@ label.radio-label {
 }
 
 button[type="submit"] {
-  background-color: #007bff;
+  background-color: black;
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   cursor: pointer;
-  width: 100%;
+  width: 90%;
   margin-top: 20px;
+}
+
+/* trip page */
+.trip-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  text-align: center;
+  border: solid 1px #0d0b07;
+  padding: 10px;
+}
+
+.trip-title {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.trip-item {
+  position: relative;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.trip-item:hover figcaption {
+  opacity: 1;
+}
+
+figcaption strong {
+  font-weight: bold;
+}
+
+figcaption p {
+  margin: 5px 0;
 }
