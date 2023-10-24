@@ -241,14 +241,18 @@ label.radio-label {
 }
 
 button[type="submit"] {
-  background-color: black;
+  background-color: #ff6600;
   color: white;
   border: none;
   border-radius: 5px;
   padding: 10px 10px;
   cursor: pointer;
-  width: 90%;
+  width: 100%;
   margin-top: 20px;
+}
+
+.form-section button:hover {
+  background-color: #ff3300;
 }
 
 /* trip page */
